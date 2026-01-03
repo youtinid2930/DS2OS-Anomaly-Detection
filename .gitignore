@@ -1,0 +1,7 @@
+.vscode/
+venv/
+data/
+dataPreprocessed.csv
+rf.pkl
+svm_model.pkl
+tracer.py
