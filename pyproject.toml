@@ -1,0 +1,22 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DS2OS Anomaly Detection"
+version = "0.1.0"
+description = "Machine Learning & Deep Learning models for binary anomaly detection on the DS2OS IoT traffic traces dataset."
+authors = [
+    { name="Youssef Tinid", email="tinidyoussef2023@gmail.com", phone_number="+212703780499" }
+]
+requires-python = ">=3.10,<3.11"
+
+dependencies = [
+    "joblib==1.5.3",
+    "matplotlib==3.10.8",
+    "pandas==2.3.3",
+    "scikit-learn==1.7.2",
+    "seaborn==0.13.2",
+    "tensorflow==2.16.1"
+]

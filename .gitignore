@@ -1,7 +1,6 @@
+
 .vscode/
-venv/
+iotvenv/
+.devkit.
 data/
-dataPreprocessed.csv
-rf.pkl
-svm_model.pkl
-tracer.py
+models/
